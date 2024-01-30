@@ -1,0 +1,49 @@
+<!doctype html>  <!-- Anfang der Datei, HTML ist die Art der Datei -->
+<html lang="de"> <!-- Sprache der Datei -->
+  <head> <!-- Im "Kopf" erstellt man den Titel und das Icon der Website oder verlinkt andere Sachen wie z.B. die css Datei -->
+    <meta charset="utf-8"> <!-- "Unicode Transformation Format – 8 Bits" Ein Zeichen wird durch 8 verschiedene Bits dargestellt mit maximal 4 Blöcken -->
+	  <link rel="icon" href="logo.png"> <!-- Das Logo wird als Icon oben im Tab eingefügt -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Das Viewport Mega Tag passt die Bildschirmgrößen der Website den Bildschirmen an-->
+    <title>DH Campus</title> <!-- So kann man den Titel im Tab oben erstellen -->
+	  <link rel="stylesheet" href="css/formate.css"> <!-- Verlinkt die Datei mit den Schriftarten-, größen etc. aus der CSS Datei -->
+  </head>
+  <body style="margin: 0 50px 0 50px;"> <!-- Im "body" steht alles andere was auf der Website zu sehen ist -->
+    
+    <header> <!-- Header für Vanigation -->
+      <h1>DH-Campus-The knowledge-room broker</h1> <!-- Dieser Befehl ist für eine Überschrift -->
+      <nav> <!-- Navigation für das Menü -->
+         <ul style="display: flex;justify-content: center;align-items: center;"> <!-- Ungeordnete List, also ohne Nummerierung -->
+          <li style="padding:0;"> <a style="padding:0;" href="./"><img src="logo.png" height="70" width="70" alt="Bild kann nicht geladen werden."></a></li>
+          <li><a tabindex="0" aria-current="page">Startseite</a></li> <!-- Mit "li" kann man die verschieden Punkte in einer Liste untereinanmder schreiben. -->
+          <!-- "<a tabindex="0" aria-current="page">...</a>" muss immer mit der Seite geschrieben sein, wo man gerade drauf ist, damit man nicht mehr auf eine andere Seite kommt, wenn man auf den gleichen Link klickt. -->
+          <li><a href="./Seminarräume.html">Seminarräume</a></li> <!-- Mit <a href ="...">...</a> kann man die Seiten miteinander verlinken, womit man die Seiten wechseln kann, dies wird meist in einer Liste verpackt. -->
+          <li><a href="./Kontakt.html">Kontakt und Impressum</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    	<p>Willkommen bei DH Campus GmbH</p> <!-- Mit "p" kann man alle normalen Texte verfassen -->
+      <p>Sie suchen nach modernen Seminarräumen, zentral gelegen in Diepholz?</p>
+      <p>Dann seid Ihr hier genau richtig!</p>	
+
+      <h2>Unsere Leistungen:</h2> <!-- Man kann mehrere verschiedene Zahlen für Überschriften verwenden, um sie dann besser mit der CSS Datei zu verklinken und verschieden zu gestalten -->
+      <div class="row" style="display: flex;flex-direction: row;flex-wrap: nowrap;align-items: center;">
+        <p style="width: 60%;">Wir von DH-Campus sind darauf spezialisiert unseren Kunden die besten Siminarräume zu bieten. <br><!-- Mit br kann man ein Absatz machen. -->
+          Da wir Ihnen das bestmögliche Erlebnis bei uns bieten wollen sind unsere Räumlichkeiten nicht nur komfortabel und groß,<br> sondern auch mit viel Technik ausgestattet, 
+          sodass sie diese vielseitig nutzen können. <br>Darüber hinaus können sie bei uns in den Pausen frisch gekochtes Essen genießen, deis bietet den Vorteil, <br>dass sie sich nicht um eine Essensgelegenheit kümmern müssen.<br>
+          Wir arbeiten stetig daran unsere Räume auf dem modernsten Stand zu halten, <br>weshalb derzeit nur ein Raum buchbar ist. <br>In einigen Wochen wird sich aber das Angebot von uns erhöhen und sie können zwischen vielen verschiedenen Räumen wählen. </p>
+        <video style="width: 30%;" class="center" src="Video_Seminarraum.mp4" type="mp4/video" width="500" height="350" autoplay="autoplay" controls="controls"></video>
+      </div>
+
+      <h2>Unsere Geschichte:</h2>
+      <p>Wir sind ein junges Unternehmen aus der Stadt Diepholz. <br>Unsere Anfänge befinden sich im Jahr 2010, wo wir damit anfingen kleine Räumlickeiten an Kunden zu vermieten, <br>mitlerweile konzentrieren wir uns darauf unsere Räumlickeiten<br>
+          in Form von Siminarräumen bestmöglich anzubieten. 
+          Wir arbeiten daran Räume <br>mit verschiedenen Eigenschaften und Nutzungszwecken anzubieten. <br>Unser stetig wachsendes Unternehmen beschäftigt nun über 20 Mitarbeiter, welche ihr bestes geben um Ihnen einen möglichst guten Aufenthalt zu bieten. </p>
+	  <footer>  <!-- Footer ist für einen Bereich am Ende der Website, der oft Informationen, wie Kontakt oder Impressum oder auch beispielsweise die AGBs oder Copyright beinhaltet -->
+      <hr></hr>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="kontakt.html#impressum">Impressum</a>
+      <p>© 2023 by Linus und Justin</p>
+    </footer>
+	</body>
+</html> <!-- HTML beginnt und schließt die Datei -->
