@@ -1,0 +1,122 @@
+body {
+    margin: 0 50px;
+    font-family: 'Arial', sans-serif; /* Bessere Schriftart für Lesbarkeit */
+    background-color: #f4f4f4; /* Hintergrundfarbe für bessere Lesbarkeit */
+    color: #333; /* Textfarbe für bessere Lesbarkeit */
+  }
+
+  header {
+    background-color: #2c3e50; /* Header Hintergrundfarbe */
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  h1 {
+    color: #ecf0f1; /* Header Textfarbe */
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ecf0f1; /* Navigationslinkfarbe */
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: #3498db; /* Farbänderung bei Hover */
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  video {
+    width: 100%;
+    max-width: 500px;
+    height: 80%;
+    margin-top: 20px;
+  }
+
+  img {
+    border: 3px solid #000000;
+    }
+
+  .row p {
+    width: 60%;
+    font-weight: bold; /* Fettschrift hinzufügen */
+    margin: 0 auto; /* Mittige Platzierung hinzufügen */
+  }
+
+  .row video {
+    width: 30%;
+    font-weight: bold; /* Fettschrift hinzufügen */
+    margin: 0 auto; /* Mittige Platzierung hinzufügen */
+  }
+
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    border-bottom:3px solid #3498db; /* Border mit Farbe */
+    padding-bottom: 10px; /* Füllung für den unteren Rand */
+  } 
+
+  ul {
+	font-size: 1.3em;
+    list-style-type: none; /* Elemente werden in einer Liste ohne Zeichen (z.B einen Punkt) dargestellt*/
+    }
+
+  li { 
+    color: #000000; /* Textfarbe schwarz */
+    text-align: center; /* Der Text wird zentriert dargestellt */
+    padding: 14px 16px; /* Beschreibt den Abstand des Elements zu seinem Rand */
+    text-decoration: none; }
+
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #34495e; /* Footer Hintergrundfarbe */
+    color: #ecf0f1; /* Footer Textfarbe */
+  }
+
+  hr {
+    border-color: #2c3e50; /* Farbe für Trennlinie */
+  }
+
+  footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  footer a:hover {
+    color: #3498db; /* Farbänderung bei Hover */
+  }
+
+  .willkommentext {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .imgtext {
+    display: flex; 
+    padding-left:15px; 
+    padding-right: 15px; 
+    padding-bottom: 10px;
+  }
